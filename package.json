@@ -4,8 +4,8 @@
   "description": "this is like a server",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "jsonserver": "json-server --port 4000 db.json",
+    "starts": "node index.js",
+    "start": "json-server --port 4000 db.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
