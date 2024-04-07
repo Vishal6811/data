@@ -4,9 +4,8 @@
   "description": "this is like a server",
   "main": "index.js",
   "scripts": {
-    "starts": "node index.js",
-    "start": "json-server --port 4000 db.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "jsonserver": "json-server --port 4000 db.json"
   },
   "keywords": [
     "server",
@@ -15,9 +14,11 @@
   "author": "Vishal Yadav",
   "license": "ISC",
   "dependencies": {
+    "concurrently": "^8.2.2",
     "cors": "^2.8.5",
     "json-serve": "^0.1.0",
-    "json-server": "^1.0.0-alpha.23"
+    "json-server": "^1.0.0-alpha.23",
+    "webpack": "^5.91.0"
   },
   "engines": {
     "node": "20.12.1"
